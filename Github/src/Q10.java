@@ -3,11 +3,14 @@ public class Q10 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int n,res;
+		. int n;
+		String a,b,c;
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter the number:");
+		System.out.println("Enter the value of n:");
 		n=sc.nextInt();
-		res=n+n*n+n*n*n;
-		System.out.println("Value of n+n*n+n*n*n is " +res);
+		a=Integer.toString(n);
+		b=a+a;
+		c=a+a+a;
+		System.out.println(Integer.parseInt(a)+Integer.parseInt(b)+Integer.parseInt(c));
 	}
 }
